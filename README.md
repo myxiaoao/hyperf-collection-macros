@@ -1,5 +1,15 @@
 # A set of useful Hyperf collection macros
 
+<a href="https://github.com/myxiaoao/hyperf-collection-macros/actions?query=workflow%3APHPUnit">
+    <img src="https://github.com/myxiaoao/hyperf-collection-macros/workflows/PHPUnit/badge.svg" alt="Tests">
+</a>
+<a href="https://packagist.org/packages/cooper/hyperf-collection-macros">
+    <img src="https://poser.pugx.org/cooper/hyperf-collection-macros/v/stable.svg" alt="Latest Stable Version">
+</a>
+<a href="https://packagist.org/packages/cooper/hyperf-collection-macros">
+    <img src="https://poser.pugx.org/cooper/hyperf-collection-macros/d/total.svg" alt="Total Downloads">
+</a>
+
 This repository contains some useful collection macros.
 
 ## Installation

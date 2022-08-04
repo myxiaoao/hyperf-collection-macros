@@ -9,16 +9,13 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-
 namespace Cooper\HyperfCollectionMacros\Macros;
-
-
 
 /**
  * Create a collection with the given range.
  *
- * @param  int  $from
- * @param  int  $to
+ * @param int $from
+ * @param int $to
  *
  * @mixin \Hyperf\Utils\Collection
  *

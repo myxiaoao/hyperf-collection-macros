@@ -12,8 +12,8 @@ declare(strict_types=1);
 namespace Cooper\HyperfCollectionMacros\Macros;
 
 use ArrayAccess;
-use Hyperf\Utils\Collection;
 use Hyperf\Utils\Arr;
+use Hyperf\Utils\Collection;
 
 /**
  * Get a Collection with only the specified keys.

@@ -70,7 +70,7 @@ class ConfigProvider
             'range' => \Cooper\HyperfCollectionMacros\Macros\Range::class,
             'recursive' => \Cooper\HyperfCollectionMacros\Macros\Recursive::class,
             'rotate' => \Cooper\HyperfCollectionMacros\Macros\Rotate::class,
-            'sortDesc'=> \Cooper\HyperfCollectionMacros\Macros\SortDesc::class,
+            'sortDesc' => \Cooper\HyperfCollectionMacros\Macros\SortDesc::class,
             'skip' => \Cooper\HyperfCollectionMacros\Macros\Skip::class,
             'second' => \Cooper\HyperfCollectionMacros\Macros\Second::class,
             'sectionBy' => \Cooper\HyperfCollectionMacros\Macros\SectionBy::class,
