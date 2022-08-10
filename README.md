@@ -40,6 +40,8 @@ The package will automatically register itself.
 - [`catch`](#catch)
 - [`chunkBy`](#chunkby)
 - [`collectBy`](#collectBy)
+- [`containsAny`](#containsAny)
+- [`containsAll`](#containsAll)
 - [`eachCons`](#eachcons)
 - [`extract`](#extract)
 - [`filterMap`](#filtermap)
@@ -264,6 +266,31 @@ $collection = collect([
 ]);
 
 $collection->collectBy('baz', ['Nope']); // Collection(['Nope'])
+```
+### `containsAny`
+
+Will return `true` if one or more of the given values exist in the collection.
+
+```php
+$collection = collect(['a', 'b', 'c']);
+
+$collection->containsAny(['b', 'c', 'd']); // returns true
+$collection->containsAny(['c', 'd', 'e']); // returns true
+$collection->containsAny(['d', 'e', 'f']); // returns false
+$collection->containsAny([]); // returns false
+```
+
+### `containsAll`
+
+Will return `true` if all given values exist in the collection.
+
+```php
+$collection = collect(['a', 'b', 'c']);
+
+$collection->containsAll(['b', 'c',]); // returns true
+$collection->containsAll(['c', 'd']); // returns false
+$collection->containsAll(['d', 'e']); // returns false
+$collection->containsAll([]); // returns true
 ```
 
 ### `eachCons`

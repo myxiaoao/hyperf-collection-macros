@@ -40,6 +40,8 @@ class ConfigProvider
             'before' => \Cooper\HyperfCollectionMacros\Macros\Before::class,
             'chunkBy' => \Cooper\HyperfCollectionMacros\Macros\ChunkBy::class,
             'collectBy' => \Cooper\HyperfCollectionMacros\Macros\CollectBy::class,
+            'containsAll' => \Cooper\HyperfCollectionMacros\Macros\ContainsAll::class,
+            'containsAny' => \Cooper\HyperfCollectionMacros\Macros\ContainsAny::class,
             'eachCons' => \Cooper\HyperfCollectionMacros\Macros\EachCons::class,
             'eighth' => \Cooper\HyperfCollectionMacros\Macros\Eighth::class,
             'extract' => \Cooper\HyperfCollectionMacros\Macros\Extract::class,
